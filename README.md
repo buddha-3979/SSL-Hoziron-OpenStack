@@ -72,6 +72,7 @@ Chỉnh sửa file cấu hình dashboard
     USE_SSL = True
 
 Và các biến 
+
     OPENSTACK_HOST = "127.0.0.1"
     OPENSTACK_KEYSTONE_URL = "http://%s:5000/v2.0" % OPENSTACK_HOST
     OPENSTACK_KEYSTONE_DEFAULT_ROLE = "_member_"
